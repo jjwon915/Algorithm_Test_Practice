@@ -1,3 +1,4 @@
+//짝수판별 알고리즘
 #include <stdio.h>
 
 int main() {
