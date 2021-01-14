@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="count_multiples.c" />
     <ClCompile Include="even_number.cpp" />
     <ClCompile Include="leap_year.cpp" />
     <ClCompile Include="max_number.cpp" />

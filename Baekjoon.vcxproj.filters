@@ -39,5 +39,8 @@
     <ClCompile Include="n_to_m.c">
       <Filter>소스 파일\Algorithm_LABS</Filter>
     </ClCompile>
+    <ClCompile Include="count_multiples.c">
+      <Filter>소스 파일\Algorithm_LABS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
