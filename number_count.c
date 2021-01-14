@@ -1,5 +1,6 @@
 //백준알고리즘_2577번_숫자의 개수
 #include <stdio.h>
+#pragma warning(disable:4996)
 
 int main() {
     int a, b, c;
