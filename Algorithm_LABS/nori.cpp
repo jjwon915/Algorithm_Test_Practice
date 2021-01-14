@@ -1,4 +1,5 @@
 #include <stdio.h>
+#pragma warning(disable:4996)
 
 void Result() {
     int i, j;

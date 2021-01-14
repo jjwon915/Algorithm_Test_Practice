@@ -89,6 +89,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <DisableSpecificWarnings>6031</DisableSpecificWarnings>
+      <AdditionalOptions>/wd4996 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -103,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/wd4996 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -140,14 +142,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Algorithm_LABS\even_number.cpp" />
+    <ClCompile Include="Algorithm_LABS\leaf_year.cpp" />
+    <ClCompile Include="Algorithm_LABS\nori.cpp" />
     <ClCompile Include="Algorithm_LABS\n_to_m.cpp" />
     <ClCompile Include="Baekjoon\number_count.cpp" />
     <ClCompile Include="count_multiples.cpp" />
     <ClCompile Include="divisor.cpp" />
-    <ClCompile Include="even_number.cpp" />
-    <ClCompile Include="leap_year.cpp" />
     <ClCompile Include="max_number.cpp" />
-    <ClCompile Include="yutnori.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
