@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+
 int main() {
     int N, M;
     int cnt = 0;
