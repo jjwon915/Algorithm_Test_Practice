@@ -21,9 +21,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="number_count.c">
-      <Filter>소스 파일\Baekjoon</Filter>
-    </ClCompile>
     <ClCompile Include="even_number.cpp">
       <Filter>소스 파일\Algorithm_LABS</Filter>
     </ClCompile>
@@ -36,10 +33,16 @@
     <ClCompile Include="leap_year.cpp">
       <Filter>소스 파일\Algorithm_LABS</Filter>
     </ClCompile>
-    <ClCompile Include="n_to_m.c">
+    <ClCompile Include="divisor.cpp">
       <Filter>소스 파일\Algorithm_LABS</Filter>
     </ClCompile>
-    <ClCompile Include="count_multiples.c">
+    <ClCompile Include="count_multiples.cpp">
+      <Filter>소스 파일\Algorithm_LABS</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\number_count.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm_LABS\n_to_m.cpp">
       <Filter>소스 파일\Algorithm_LABS</Filter>
     </ClCompile>
   </ItemGroup>
