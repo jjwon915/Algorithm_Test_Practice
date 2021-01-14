@@ -13,16 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\2021_January">
+    <Filter Include="소스 파일\Baekjoon">
       <UniqueIdentifier>{c74c912f-243a-4875-8b44-8d693c90ea4b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\2021_February">
-      <UniqueIdentifier>{af7a084d-cccf-403d-81cc-55d925d4f832}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="number_count.c">
-      <Filter>소스 파일\2021_January</Filter>
+      <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
