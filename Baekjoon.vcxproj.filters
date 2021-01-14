@@ -16,10 +16,16 @@
     <Filter Include="소스 파일\Baekjoon">
       <UniqueIdentifier>{c74c912f-243a-4875-8b44-8d693c90ea4b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Algorithm_LABS">
+      <UniqueIdentifier>{9d2187cf-5c9e-4507-a891-c3872bdb7e50}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="number_count.c">
       <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="even_number.cpp">
+      <Filter>소스 파일\Algorithm_LABS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
