@@ -144,6 +144,7 @@
     <ClCompile Include="leap_year.cpp" />
     <ClCompile Include="max_number.cpp" />
     <ClCompile Include="number_count.c" />
+    <ClCompile Include="n_to_m.c" />
     <ClCompile Include="yutnori.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -36,5 +36,8 @@
     <ClCompile Include="leap_year.cpp">
       <Filter>소스 파일\Algorithm_LABS</Filter>
     </ClCompile>
+    <ClCompile Include="n_to_m.c">
+      <Filter>소스 파일\Algorithm_LABS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
