@@ -141,6 +141,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="even_number.cpp" />
+    <ClCompile Include="leap_year.cpp" />
+    <ClCompile Include="max_number.cpp" />
     <ClCompile Include="number_count.c" />
     <ClCompile Include="yutnori.cpp" />
   </ItemGroup>

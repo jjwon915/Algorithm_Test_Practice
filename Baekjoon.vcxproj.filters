@@ -30,5 +30,11 @@
     <ClCompile Include="yutnori.cpp">
       <Filter>소스 파일\Algorithm_LABS</Filter>
     </ClCompile>
+    <ClCompile Include="max_number.cpp">
+      <Filter>소스 파일\Algorithm_LABS</Filter>
+    </ClCompile>
+    <ClCompile Include="leap_year.cpp">
+      <Filter>소스 파일\Algorithm_LABS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
