@@ -13,7 +13,7 @@ int main() {
 		if (a < min) {
 			min = a;
 		}
-	}
+	} 
 
 	cout << max - min;
 
