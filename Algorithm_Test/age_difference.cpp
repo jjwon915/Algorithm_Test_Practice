@@ -2,26 +2,20 @@
 using namespace std;
 
 int main() {
-	int n, temp;
+	int n, a, max = -2147000000, min = 2147000000;
 	cin >> n;
 
-	int people[100];
 	for (int i = 0; i < n; i++) {
-		cin >> people[i];
-	}
-
-	for (int i = 0; i < n; i++) {
-		for (int j = i + 1; j < n; j++) {
-			if (people[i] > people[j]) {
-				temp = people[i];
-				people[i] = people[j];
-				people[j] = temp;
-			}
+		cin >> a;
+		if (a > max) {
+			max = a;
+		}
+		if (a < min) {
+			min = a;
 		}
 	}
 
-	cout << people[n - 1] - people[0];
-
+	cout << max - min;
 
 	return 0;
 }
