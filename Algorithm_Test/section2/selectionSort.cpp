@@ -8,22 +8,21 @@ using namespace std;
 int main() {
 	//freopen("input.txt", "rt", stdin);
 
-	int n, tmp;
-	scanf("%d", &n);
+	int a[100], n, index, tmp;
 
-	vector<int> a(n);
+	scanf("%d", &n);
 	for (int i = 0; i < n; i++) {
 		scanf("%d", &a[i]);
 	}
 
-	for (int i = 0; i < n - 1; i++) {
-		for (int j = i + 1; j < n; j++) {
-			if (a[i] > a[j]) {
-				tmp = a[j];
-				a[j] = a[i];
-				a[i] = tmp;
-			}
+	for (int i = 0; i < n-1; i++) {
+		index = i;
+		for (int j = index; j < n; j++) {
+			if (a[index] > a[j]) index = j;
 		}
+		tmp = a[index];
+		a[index] = a[i];
+		a[i] = tmp;
 	}
 
 	for (int i = 0; i < n; i++) {
