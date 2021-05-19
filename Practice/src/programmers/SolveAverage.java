@@ -11,7 +11,7 @@ public class SolveAverage {
         	answer = answer + arr[i];
         }
         answer = answer / arr.length;
-        System.out.println(answer);
+
         return answer;
     }
 
