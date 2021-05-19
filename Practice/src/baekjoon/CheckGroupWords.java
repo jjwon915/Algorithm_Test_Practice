@@ -30,6 +30,7 @@ public class CheckGroupWords {
 					if(j == a.length - 1) {
 						result++;
 						Arrays.fill(count, 0);
+						break;
 					}
 					count[c]++;
 				}
