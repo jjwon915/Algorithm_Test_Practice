@@ -13,7 +13,5 @@ public class PlusBigNumber {
 		BigInteger sum = A.add(B);
 		
 		System.out.println(sum);
-
 	}
-
 }
