@@ -1,28 +1,39 @@
 package baekjoon;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class FractionalNumber {
 
-	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		int X = in.nextInt();
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int X = Integer.parseInt(br.readLine());
 		int count = 0;
-		int tmp;
-		int T = 2;
+		int i = 1;
+		int u = 1, d = 1;
 		
-		for(int i = 1; i < X; i++) {
-			tmp = i;
-			if(T % 2 == 0) {
-				for(int j = i; j >= 1; j--) {
-					tmp++;
-					count++;
-					if(count == X) {
-						System.out.println(j+"/"+tmp);
-					}
-				}
+		while(true) {
+			count += i;
+			if(count >= X) {
+				break;
+			}
+			i++;
+		}
+		
+		if(i % 2 == 0) {
+			for(int j = 0; j <= count - X; j++) {
+				u = i - j;
+				d = j + 1;
 			}
 		}
+		else {
+			for(int j = 0; j <= count - X; j++) {
+				u = j + 1;
+				d = i - j;
+			}
+		}
+		
+		System.out.println(u + "/" + d);
 	}
-
 }
