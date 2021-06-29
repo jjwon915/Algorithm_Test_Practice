@@ -8,9 +8,9 @@ public class FindCharacter_2 {
 		int result = 0;
 		char c = s.charAt(0);
 		/**
-		 *  Çâ»óµÈ for¹®
-		 *  char x : str·Î ¾²¸é ¾ÈµÈ´Ù.
-		 *  strÀ» ¹è¿­·Î º¯È¯ÇØ¾ß  »ç¿ë°¡´É.
+		 *  í–¥ìƒëœ forë¬¸
+		 *  char x : str ì´ë ‡ê²Œ ì‘ì„±í•˜ë©´ ì˜¤ë¥˜ ë°œìƒ.
+		 *  strì„ char ë°°ì—´ë¡œ ë³€í™˜í•´ ì‚¬ìš©í•´ì•¼ char xì— strì˜ ë¬¸ìë¥¼ ì°¨ë¡€ëŒ€ë¡œ ì ‘ê·¼í•œë‹¤.
 		 */		
 		for(char x : str.toCharArray()) {
 			if(x == c)
