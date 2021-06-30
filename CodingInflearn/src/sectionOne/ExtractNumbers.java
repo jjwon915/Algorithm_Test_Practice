@@ -20,5 +20,5 @@ public class ExtractNumbers {
 		System.out.println(T.solution(str));
 		
 	}
-
+	
 }
