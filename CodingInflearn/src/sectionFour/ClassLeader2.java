@@ -14,11 +14,6 @@ public class ClassLeader2 {
 			map.put(x, map.getOrDefault(x, 0) + 1);
 		}
 		
-		System.out.println(map.containsKey('A'));
-		System.out.println(map.size());
-		System.out.println(map.remove('A'));
-		System.out.println(map.size());
-		
 		int max = Integer.MIN_VALUE;
 		for(char key : map.keySet()) {
 			if(map.getOrDefault(key, 0) > max) {
