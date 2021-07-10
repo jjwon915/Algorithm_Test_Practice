@@ -10,15 +10,12 @@ public class SumOfNumbers {
 		int sum = 0;
 		int lt = 0;
 		
-		if(n % 2 == 0)
-			return answer;
-		
 		for(int rt = 1; rt <= n / 2 + 1; rt++) {
 			sum = sum + rt;
 			if(sum == n) answer++;
 			while(sum > n) {
 				sum -= lt++;
-				if(sum == n) {
+				if(sum == n) { 
 					answer++;
 				}
 			}
