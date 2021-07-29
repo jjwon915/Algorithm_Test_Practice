@@ -14,13 +14,13 @@ public class ClawCraneGame {
 			for(int i = 0; i < n; i++) {
 				if(board[i][x-1] != 0) {
 					if(!get.isEmpty()) {
-						int tmp = get.pop();
+						int tmp = get.peek();
 						if(tmp == board[i][x-1]) {
 							board[i][x-1] = 0;
+							get.pop();
 							answer += 2;
 							break;
 						}
-						get.push(tmp);
 					}
 					get.push(board[i][x-1]);
 					board[i][x-1] = 0;
