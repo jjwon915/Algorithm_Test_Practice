@@ -11,18 +11,16 @@ public class Postfix {
 		Stack<Integer> stack = new Stack<>();
 		
 		for(char x : s.toCharArray()) {
-			if(x >= '0' && x <= '9')
+			if(Character.isDigit(x))
 				stack.push(x - '0');
-			else if(x == '+') {
+			else if(x == '+')
 				stack.push(stack.pop() + stack.pop());
-			}
 			else if(x == '-') {
 				int tmp = -(stack.pop());
 				stack.push(stack.pop() + tmp);
 			}
-			else if(x == '*') {
+			else if(x == '*')
 				stack.push(stack.pop() * stack.pop());
-			}
 			else if(x == '/') {
 				int tmp = stack.pop();
 				stack.push(stack.pop() / tmp);
