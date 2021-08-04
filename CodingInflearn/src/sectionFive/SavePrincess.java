@@ -14,7 +14,7 @@ public class SavePrincess {
 			queue.offer(i);
 		
 		int count = 0;
-		while(queue.size() != 0) {
+		while(!queue.isEmpty()) {
 			int x = queue.poll();
 			count++;
 			if(count == k) {
