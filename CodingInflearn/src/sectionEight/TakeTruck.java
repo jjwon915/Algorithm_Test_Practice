@@ -10,6 +10,7 @@ public class TakeTruck {
 	static int answer = 0;
 	
 	public static void DFS(int level, int sum) {
+		if(sum > c) return;
 		if(level == n) {
 			if(sum >= answer && sum <= c)
 				answer = sum;
