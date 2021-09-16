@@ -12,9 +12,9 @@ public class BG1629 {
 		String str = br.readLine();
 		StringTokenizer st = new StringTokenizer(str, " ");
 		
-		long a = Integer.parseInt(st.nextToken());
-		long b = Integer.parseInt(st.nextToken());
-		long c = Integer.parseInt(st.nextToken());
+		int a = Integer.parseInt(st.nextToken());
+		int b = Integer.parseInt(st.nextToken());
+		int c = Integer.parseInt(st.nextToken());
 		System.out.println(cal(a, b, c));
 		
 	}
@@ -22,9 +22,6 @@ public class BG1629 {
 	public static long cal(long a, long b, long c) {
 		if(b == 0) {
 			return 1;
-		}
-		else if(b == 1) {
-			return a;
 		}
 		else if(b % 2 == 0) {
 			long n = cal(a, b / 2, c);
